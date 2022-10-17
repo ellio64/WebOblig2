@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+* {
+    box-sizing: border-box;
+}
+.sideinnpakning {
+    
+    min-height: 29.7cm;
+    width: 21cm;
+    margin: 1cm auto;
+    border: 1px grey solid;
+    border-radius: 2px;
+    background: white;
+    padding: 2cm;
+    
+}
+
+.sidemedstrek {
+    padding: 1cm;
+    border-top: 5px solid;
+    border-image:    linear-gradient(to right,red 5%, red 22%, black 22%, black 100%) 3;
+}
+    height: 237mm;
+    outline: 2cm grey solid;
+}
+
+.side {
+    padding: 1cm;
+    border: 5px;
+    height: 237mm;
+    outline: 2cm grey solid;
+}
+
+.side3 {
+     padding: 1cm;
+    border: 5px;
+    height: 237mm;
+    outline: 2cm grey solid;
+   overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('sidebilde.jpg');
+    
+}
+
+
