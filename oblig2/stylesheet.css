@@ -1,0 +1,42 @@
+*{
+    width: 677px;
+}
+
+body{
+    margin: 0;
+}
+
+#frontPage{
+    background-image: url("pictures/mrTrumpshroom.png");
+    height: 857px;
+    border: 5px solid black;
+}
+Header > h1 {
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+.article{
+    height: 857px;
+    border: 5px solid black;
+
+}
+.lefties{
+    padding-left: 3em;
+}
+
+.verticalLine{
+    border-left: 3px solid black;
+    height: 50px;
+}
+
+img{
+    width: 270px;
+}
+#secondLeft{
+    width: 270px;
+}
+.headies{
+    font-family: 'Playfair Display SC', serif;
+}
+#capitalI{
+    font-family: 'Playfair Display SC', serif;
+}
