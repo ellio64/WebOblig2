@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
 * {
     box-sizing: border-box;
@@ -18,32 +18,40 @@ body {
     
 }
 
-.sidemedstrek {
-    padding: 1cm;
-    border-top: 5px solid;
-    border-image:    linear-gradient(to right,red 5%, red 22%, black 22%, black 100%) 3;
-}
-    height: 237mm;
-    outline: 2cm grey solid;
-}
-
 .side {
     padding: 1cm;
     border: 5px;
     height: 237mm;
     outline: 2cm grey solid;
+    
 }
+
+.side2medstrek {
+    padding: 1cm;
+    border-top: 5px solid;
+    border-image:    linear-gradient(to right,red 5%, red 22%, black 22%, black 100%) 3;
+}
+   
+
+
 
 .side3 {
      padding: 1cm;
     border: 5px;
     height: 237mm;
-    outline: 2cm grey solid;
-   overflow: hidden;
+    outline: 2cm white solid;
+    overflow: hidden;
     background-size: cover;
     background-position: center;
     background-image: url('sidebilde.jpg');
     
+}
+
+.side4 {
+    padding: 1cm;
+    border: 5px;
+    height: 237mm;
+    outline: 2cm grey solid;
 }
 
 
