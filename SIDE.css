@@ -1,57 +1,103 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
-}
-* {
     box-sizing: border-box;
 }
-.sideinnpakning {
-    
-    min-height: 29.7cm;
-    width: 21cm;
-    margin: 1cm auto;
-    border: 1px grey solid;
-    border-radius: 2px;
-    background: white;
-    padding: 2cm;
-    
+
+body {
+    background-color: lightgray;
 }
 
 .side {
-    padding: 1cm;
-    border: 5px;
-    height: 237mm;
-    outline: 2cm grey solid;
-    
+    margin: auto;
+    border: 1px grey solid;
+    border-radius: 2px;
+    padding: 2cm;
+    min-height: 25.6cm;
+    width: 21cm;
+    background: white;  
 }
 
-.side2medstrek {
-    padding: 1cm;
-    border-top: 5px solid;
-    border-image:    linear-gradient(to right,red 5%, red 22%, black 22%, black 100%) 3;
-}
-   
-
-
-
-.side3 {
-     padding: 1cm;
-    border: 5px;
-    height: 237mm;
-    outline: 2cm white solid;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url('sidebilde.jpg');
-    
+.front {
+  background-size: cover;
+  background-position: center;
+  background-image: url('bluejay.jpg');
 }
 
-.side4 {
-    padding: 1cm;
-    border: 5px;
-    height: 237mm;
-    outline: 2cm grey solid;
+.img {
+  height: 237mm;
+  background-size: cover;
+  background-position: center;
+  background-image: url('sidebilde.jpg');
+}
+
+.seperator {
+  width: 1%;
+  display: inline-block;
+}
+  
+.left {
+  float:left;
+  height: 7px;
+  width: 20%;
+  background-color: red;
+}
+
+.right {
+  float: right;
+  float: right;
+  height: 1px;
+  width: 80%;
+}
+
+h1 {
+  font-size: 47.8px;
+  line-height: 0.85;
+  
+}
+
+p1 {
+  font-family: "Calibri", sans-serif;
+  font-size: larger;
+}
+
+.author {
+  font-size: x-small;
+}
+
+.firstp {
+  text-indent: 0px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-indent: 30px;
+  line-height: 1.3;
 }
 
 
+
+.mainpart {
+  width: 9.35cm;
+}
+.sidepart {
+  width: 2.5cm;
+  font-size: x-small;
+}
+
+span {
+  float: left;
+  line-height: 70%;
+  width: .3.5em;
+  font-size: 800%;
+  font-family:"Times New Roman", Times, serif;
+}
+
+.part{
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+}
+
+text {
+  display: flex;
+}
